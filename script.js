@@ -3,12 +3,12 @@ const toggleBtn = document.getElementById("toggleBtn");
 
 // Danh sách 6 hình ảnh do bạn chụp trong thư mục images/
 const photos = [
-  { src: "images/img1.jpg", caption: "Hình 1" },
-  { src: "images/img2.jpg", caption: "Hình 2" },
-  { src: "images/img3.jpg", caption: "Hình 3" },
-  { src: "images/img4.jpg", caption: "Hình 4" },
-  { src: "images/img5.jpg", caption: "Hình 5" },
-  { src: "images/img6.jpg", caption: "Hình 6" }
+  { src: "images/img1.jpg.png", caption: "Hình 1" },
+  { src: "images/img2.jpg.png", caption: "Hình 2" },
+  { src: "images/img3.jpg.png", caption: "Hình 3" },
+  { src: "images/img4.jpg.png", caption: "Hình 4" },
+  { src: "images/img5.jpg.png", caption: "Hình 5" },
+  { src: "images/img6.jpg.png", caption: "Hình 6" }
 ];
 
 const totalPanels = photos.length; // 6 mặt
@@ -61,5 +61,6 @@ function rotateLantern() {
   }
   requestAnimationFrame(rotateLantern);
 }
+
 
 rotateLantern();
